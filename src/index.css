@@ -1,0 +1,46 @@
+body {
+	background: radial-gradient(ellipse at center, #FFF9CE 0%,#d3d3d3 100%);
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+body > div {
+	width: 100%;
+	text-align: center;
+}
+
+#readout {
+	font-size: 12rem;
+	font-family: sans-serif;
+	line-height: 12rem;
+}
+
+#readoutTitle {
+	font-size: 2rem;
+	font-family: sans-serif;
+	line-height: 2rem;
+}
+
+body.dark {
+	background: radial-gradient(ellipse at center, #1b1b1b 0%, #000000 100%);
+	color: #2F3473;
+}
+
+body.dark button {
+	background-color: #2a2a2a;
+	border: 1px solid #01a003;
+	color: #01a003;
+}
+
+body.dark .selected {
+	background-color: #01a003;
+	color: #fff;
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "lightsensor",
+  "version": "1.0.0",
+  "description": "playing with lightsensor api",
+  "main": "index.js",
+  "author": "Alex Blease",
+  "license": "MIT"
+}

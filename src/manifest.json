@@ -1,0 +1,10 @@
+{
+	"name": "Lightsensor",
+	"short_name": "sense",
+	"description": "Playing around with light sensor api",
+	"start_url": "/",
+	"theme_color": "#fff9ce",
+	"background_color": "#fff9ce",
+	"display": "standalone"
+}
+
